@@ -2,13 +2,14 @@
 
 async function getData(params:any) {
   // 1 endpoint - API?
-  const endpoint = "http:// http://localhost:3000/api/posts"
-  const res = await fetch(endpoint) //HTTP GET
+//   const endpoint = "http:// http://localhost:3000/api/posts"
+//   const res = await fetch(endpoint) //HTTP GET
 
-  if (!res.ok) {
-      throw new Error("failed to fetch data")
-}
-return res.json()
+//   if (!res.ok) {
+//       throw new Error("failed to fetch data")
+// }
+// return res.json()
+  return {items:[]}
 
 }
 
